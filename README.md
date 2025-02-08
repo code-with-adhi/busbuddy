@@ -18,6 +18,7 @@ system enables passengers to make informed decisions on whether to board the
 next bus or explore alternative travel options, improving the overall commuting 
 experience. The project highlights the potential of AI and real-time data to 
 enhance public transportation, reduce frustration, and optimize commuter flow. 
+
 CHAPTER 1: INTRODUCTION 
 1.1 Problem Statement: 
 Everyday commuters are impacted by the ongoing problem of public bus 
@@ -41,6 +42,7 @@ Green, Yellow, or Red. This information is updated every 30 seconds. It is
 accessible via a web interface or mobile app, allowing commuters to 
 maximize their travel experience, avoid packed buses, and make educated 
 decisions. 
+
 CHAPTER 2: LITERATURE REVIEW 
 2.1 OVERVIEW 
 The Bus Buddy project addresses the problem of crowding in public buses 
@@ -65,6 +67,7 @@ interiors, improving its accuracy in detecting passengers under varying
 conditions. 
 • Real-time Processing: The model processes images every 30 seconds 
 to update bus crowding levels. 
+
 CHAPTER 3: METHODOLOGY  
 3.1 DATA COLLECTION 
 In this section, describe how data was gathered, labelled, and prepared for 
@@ -173,7 +176,8 @@ Environment
 • Software: 
 o Python 3.12.1 
 o PyTorch 2.4.1 
-o YOLOv5 framework (latest version) 
+o YOLOv5 framework (latest version)
+ 
 CHAPTER 4: EXPERIMENTAL SETUP 
 4.1 TOOLS AND SOFTWARE 
 The Bus Buddy project's software, libraries, and tools for data processing,  
@@ -275,7 +279,8 @@ real-time requirements.
 2. Generalization: Performance drops in different lighting, angles, or crowd 
 densities. 
 3. Single-Class Detection: Focused only on detecting people, limiting 
-broader use cases. 
+broader use cases.
+
 CHAPTER 5: RESULTS AND DISCUSSION 
 5.1 MODEL PERFORMANCE EVALUATION 
 This section presents the evaluation metrics used to assess the YOLOv5 model's 
@@ -355,6 +360,7 @@ detection capabilities and high precision in moderately crowded scenes. Key
 limitations include challenges with occlusion and extreme crowd densities. 
 These insights guide future work, emphasizing optimization for dense and 
 diverse real-world scenarios. 
+
 CHAPTER 6: CONCLUSION AND FUTURE WORK: 
 6.1 SUMMARY OF FINDINGS 
 This section provides a concise summary of the key findings from the study, 
